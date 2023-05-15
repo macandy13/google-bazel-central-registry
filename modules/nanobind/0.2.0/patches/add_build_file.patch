@@ -1,6 +1,6 @@
 --- /dev/null
 +++ BUILD.bazel
-@@ -0,0 +1,56 @@
+@@ -0,0 +1,61 @@
 +config_setting(
 +    name = "msvc_compiler",
 +    flag_values = {"@bazel_tools//tools/cpp:compiler": "msvc-cl"},
@@ -59,7 +59,6 @@
 +        "//conditions:default": [],
 +    }),
 +    includes = ["include", "ext/robin_map/include"],
-+    deps = ["@python_headers"],
 +    visibility = ["//visibility:public"],
 +)
 +
