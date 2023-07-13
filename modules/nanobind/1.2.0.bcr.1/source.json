@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/wjakob/nanobind/archive/refs/tags/v1.2.0.tar.gz",
+    "integrity": "sha256-zmojp7Gntw0vP1XHmXXSzy2U3K4Vt6DcWy+WUhpvtA4=",
+    "strip_prefix": "nanobind-1.2.0",
+    "patches": {
+        "add_build_file.patch": "sha256-AUVL8KupUDWtoQxFwC4Q8nFQDJkU7+IJ+PKcqzhAF+o=",
+        "module_dot_bazel.patch": "sha256-VFPAqrQdld4x71UumJbAHChwJqzJCKQCUMK6P9C8rmQ="
+    },
+    "patch_strip": 0
+}
